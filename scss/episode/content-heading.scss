@@ -12,13 +12,25 @@
     height: auto;
   }
 
+  &__details::before {
+    content: '[ ';
+  }
+
+  &__details::after {
+    content: ' ]';
+  }
+
   &__details {
     color: $secondary-title-color;
     text-align: center;
     display: block;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 400;
     padding: 10px 0;
     line-height: 16px;
+
+    &--bold {
+      font-weight: 600;
+    }
   }
 }
