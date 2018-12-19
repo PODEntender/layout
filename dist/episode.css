@@ -82,14 +82,24 @@ table {
     font-size: 24px;
     font-weight: 900;
     line-height: 30px; }
-  .heading__small {
+
+/* Background-related colors */
+/* Title-related colors */
+/* Textual elements -related colors */
+.content-heading {
+  border: 1px solid #ccc;
+  border-left: 0;
+  border-right: 0;
+  box-shadow: 0px 0px 5px #ccc; }
+  .content-heading__cover {
+    width: 100%;
+    height: auto; }
+  .content-heading__details {
     color: #777;
+    text-align: center;
     display: block;
     font-size: 12px;
     font-weight: 400;
     padding: 10px 0;
     line-height: 16px; }
-
-.content {
-  padding: 0 15px; }
 
