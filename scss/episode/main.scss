@@ -1,2 +1,8 @@
 @import '../reset';
 @import '../components/top-nav/top-nav';
+@import '../components/header/header';
+@import '../components/elements/heading';
+
+.content {
+  padding: 0 15px;
+}

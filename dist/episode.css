@@ -22,7 +22,7 @@ time, mark, audio, video {
   font: inherit;
   vertical-align: baseline;
   box-sizing: border-box;
-  font-family: Roboto, Helvetica, Arial, sans-serif; }
+  font-family: Opensans, Roboto, Helvetica, Arial, sans-serif; }
 
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
@@ -64,4 +64,32 @@ table {
     color: #fff;
     text-transform: uppercase;
     text-decoration: none; }
+
+.header {
+  padding: 20px; }
+  .header__logo {
+    width: 200px;
+    height: auto; }
+
+/* Background-related colors */
+/* Title-related colors */
+/* Textual elements -related colors */
+.heading {
+  text-align: center; }
+  .heading__primary {
+    color: #222;
+    letter-spacing: 0;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 30px; }
+  .heading__small {
+    color: #777;
+    display: block;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 10px 0;
+    line-height: 16px; }
+
+.content {
+  padding: 0 15px; }
 
