@@ -1,0 +1,13 @@
+@import '../colors';
+
+.content-heading {
+  &__details {
+    color: $secondary-title-color;
+    text-align: center;
+    display: block;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 10px 0;
+    line-height: 16px;
+  }
+}
