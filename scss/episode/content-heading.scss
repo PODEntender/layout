@@ -1,6 +1,16 @@
 @import '../colors';
 
 .content-heading {
+  border: 1px solid #ccc;
+  border-left: 0;
+  border-right: 0;
+  box-shadow: 0px 0px 5px #ccc;
+
+  &__cover {
+    width: 100%;
+    height: auto;
+  }
+
   &__details {
     color: $secondary-title-color;
     text-align: center;
