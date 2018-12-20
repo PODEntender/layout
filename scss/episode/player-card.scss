@@ -1,0 +1,18 @@
+@import '../colors';
+
+.player-card {
+  padding: 0 10px;
+
+  &__subscribe {
+    font-size: 14px;
+    color: $primary-text-color;
+    margin: 10px 0;
+  }
+
+  &__subscribe-link {
+    text-decoration: none;
+    color: $primary-text-color;
+    font-size: 12px;
+    font-weight: 700;
+  }
+}

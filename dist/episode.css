@@ -90,16 +90,41 @@ table {
   border: 1px solid #ccc;
   border-left: 0;
   border-right: 0;
-  box-shadow: 0px 2px 5px #ccc; }
+  box-shadow: 0px 2px 5px #ccc;
+  margin-bottom: 10px; }
   .content-heading__cover {
     width: 100%;
     height: auto; }
+  .content-heading__details::before {
+    content: '[ '; }
+  .content-heading__details::after {
+    content: ' ]'; }
   .content-heading__details {
     color: #777;
     text-align: center;
     display: block;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 400;
     padding: 10px 0;
     line-height: 16px; }
+    .content-heading__details--bold {
+      font-weight: 600; }
+
+/* Background-related colors */
+/* Title-related colors */
+/* Textual elements -related colors */
+.player-card {
+  padding: 0 10px; }
+  .player-card__subscribe {
+    font-size: 14px;
+    color: #777;
+    margin: 10px 0; }
+  .player-card__subscribe-link {
+    text-decoration: none;
+    color: #777;
+    font-size: 12px;
+    font-weight: 700; }
+
+.player {
+  height: auto; }
 
