@@ -5,6 +5,26 @@
 @import './content-heading';
 @import './player-card';
 @import './player';
+@import '../colors';
+
+$font-size-primary-text: 15px;
 
 .content {
+  &__body {
+    padding: 0 15px;
+    text-align: justify;
+  }
+
+  &__paragraph {
+    margin: 20px 0;
+    font-size: $font-size-primary-text;
+    color: $primary-text-color;
+    letter-spacing: 0;
+    line-height: 20px;
+    font-weight: 300;
+
+    &--bold {
+      font-weight: 400;
+    }
+  }
 }
