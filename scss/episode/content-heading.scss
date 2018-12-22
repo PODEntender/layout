@@ -7,19 +7,11 @@
     border-radius: 5px;
   }
 
-  &__details::before {
-    content: '[ ';
-  }
-
-  &__details::after {
-    content: ' ]';
-  }
-
   &__details {
     color: $secondary-title-color;
     text-align: center;
     display: block;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 400;
     padding: 10px 0;
     line-height: 16px;

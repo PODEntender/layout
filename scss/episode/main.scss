@@ -4,7 +4,6 @@
 @import '../components/elements/heading';
 @import './content-heading';
 @import './player-card';
-@import './player';
 @import '../colors';
 
 $font-size-primary-text: 16px;
@@ -17,11 +16,11 @@ $font-size-primary-text: 16px;
   &__body::after {
     display: inline-block;
     position: relative;
-    left: 50%;
     content: ' ';
     border-top: 1px solid $primary-text-color;
-    width: 90%;
     transform: translateX(-50%);
+    width: 100%;
+    left: 50%;
   }
 
   &__body {
