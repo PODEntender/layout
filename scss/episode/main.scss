@@ -3,11 +3,10 @@
 @import '../components/header/header';
 @import '../components/footer/footer';
 @import '../components/elements/heading';
+@import '../components/elements/paragraph';
 @import './content-heading';
 @import './player-card';
 @import '../colors';
-
-$font-size-primary-text: 16px;
 
 .content {
   padding: 0 5px;
@@ -25,19 +24,5 @@ $font-size-primary-text: 16px;
 
   &__body {
     padding: 0 15px;
-    text-align: justify;
-  }
-
-  &__paragraph {
-    margin: 15px 0;
-    font-size: $font-size-primary-text;
-    color: $primary-text-color;
-    letter-spacing: 0;
-    line-height: 20px;
-    font-weight: 300;
-
-    &--bold {
-      font-weight: 400;
-    }
   }
 }
