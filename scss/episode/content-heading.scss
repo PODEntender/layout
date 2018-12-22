@@ -1,13 +1,6 @@
 @import '../colors';
 
 .content-heading {
-  border: 1px solid #ccc;
-  border-left: 0;
-  border-right: 0;
-  border-top: 0;
-  box-shadow: 0px 2px 5px #ccc;
-  margin-bottom: 10px;
-
   &__cover {
     width: 100%;
     height: auto;
