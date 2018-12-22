@@ -2,9 +2,6 @@
 @import '../../z-index';
 
 .header {
-  position: sticky;
-  top: 0;
-  z-index: $max-level;
   background-color: $website-background-color;
   box-shadow: 0px 0px 2px $box-shadow-color;
 
