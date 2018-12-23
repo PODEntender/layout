@@ -3,6 +3,11 @@
 .player-card {
   padding: 0 10px;
 
+  &__player {
+    width: 100%;
+    height: 45px;
+  }
+
   &__subscribe {
     font-size: 14px;
     color: $primary-text-color;

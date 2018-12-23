@@ -1,10 +1,28 @@
 @import '../reset';
 @import '../components/top-nav/top-nav';
 @import '../components/header/header';
+@import '../components/footer/footer';
 @import '../components/elements/heading';
+@import '../components/elements/paragraph';
 @import './content-heading';
 @import './player-card';
-@import './player';
+@import '../colors';
 
 .content {
+  padding: 0 5px;
+  margin-top: 5px;
+
+  &__body::before {
+    display: inline-block;
+    position: relative;
+    content: ' ';
+    border-top: 1px solid $primary-text-color;
+    transform: translateX(-50%);
+    width: 100%;
+    left: 50%;
+  }
+
+  &__body {
+    padding: 0 15px;
+  }
 }
