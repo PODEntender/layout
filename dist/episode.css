@@ -72,7 +72,11 @@ table {
 /* Textual elements -related colors */
 .header {
   background-color: #fff;
-  box-shadow: 0px 0px 2px #ccc; }
+  box-shadow: 0px 0px 2px #ccc;
+  z-index: 2;
+  position: sticky;
+  top: 0;
+  text-align: center; }
   .header__logo {
     margin-left: 5px;
     width: 140px;
@@ -115,20 +119,21 @@ table {
   text-align: center; }
   .heading__primary {
     color: #222;
-    letter-spacing: 0;
-    font-size: 24px;
-    font-weight: 900;
-    line-height: 30px; }
+    letter-spacing: normal;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: 10px; }
 
 /* Background-related colors */
 /* Title-related colors */
 /* Textual elements -related colors */
 .paragraph {
   margin: 15px 0;
-  font-size: 16px;
+  font-size: 18px;
   color: #777;
-  letter-spacing: 0;
-  line-height: 20px;
+  letter-spacing: 0.072px;
+  line-height: 28px;
   font-weight: 300; }
   .paragraph--left {
     text-align: left; }
@@ -151,7 +156,7 @@ table {
   color: #777;
   text-align: center;
   display: block;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 400;
   padding: 10px 0;
   line-height: 16px; }
@@ -162,6 +167,7 @@ table {
 /* Title-related colors */
 /* Textual elements -related colors */
 .player-card {
+  display: none;
   padding: 0 10px; }
   .player-card__player {
     width: 100%;

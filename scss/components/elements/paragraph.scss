@@ -1,13 +1,13 @@
 @import '../../colors';
 
-$font-size-primary-text: 16px;
+$font-size-primary-text: 18px;
 
 .paragraph {
   margin: 15px 0;
   font-size: $font-size-primary-text;
   color: $primary-text-color;
-  letter-spacing: 0;
-  line-height: 20px;
+  letter-spacing: 0.072px;
+  line-height: 28px;
   font-weight: 300;
 
   &--left {

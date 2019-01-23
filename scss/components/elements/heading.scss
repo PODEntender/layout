@@ -1,16 +1,16 @@
 @import '../../colors';
 
-$font-size-primary-heading: 24px;
+$font-size-primary-heading: 26px;
 
 .heading {
   text-align: center;
 
   &__primary {
     color: $primary-title-color;
-    letter-spacing: 0;
+    letter-spacing: normal;
     font-size: $font-size-primary-heading;
-    font-weight: 900;
-    line-height: 30px;
-
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: 10px;
   }
 }

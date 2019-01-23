@@ -1,6 +1,7 @@
 @import '../colors';
 
 .player-card {
+  display: none;
   padding: 0 10px;
 
   &__player {
