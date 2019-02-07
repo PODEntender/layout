@@ -70,17 +70,32 @@ table {
 /* Background-related colors */
 /* Title-related colors */
 /* Textual elements -related colors */
-.header {
+.header_bar {
   background-color: #fff;
   box-shadow: 0px 0px 2px #ccc;
   z-index: 2;
   position: sticky;
   top: 0;
-  text-align: center; }
-  .header__logo {
+  display: flex; }
+  .header_bar::before {
+    content: '';
+    flex: 1; }
+  .header_bar__logo {
+    flex: 2;
     margin-left: 5px;
-    width: 180px;
-    height: auto; }
+    align-items: center;
+    text-align: center; }
+    .header_bar__logo img {
+      max-width: 180px; }
+  .header_bar__menu {
+    flex: 1;
+    text-align: right; }
+    .header_bar__menu__icon {
+      flex: 1;
+      background: none;
+      border: none;
+      text-align: right;
+      height: 100%; }
 
 /* Background-related colors */
 /* Title-related colors */
