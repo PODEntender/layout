@@ -100,6 +100,37 @@ table {
 /* Background-related colors */
 /* Title-related colors */
 /* Textual elements -related colors */
+.side-menu {
+  display: none;
+  z-index: 999;
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 90vw;
+  padding: 2em;
+  overflow: auto;
+  background-color: #fff;
+  box-shadow: -20vw 0 0 0 rgba(0, 0, 0, 0.7); }
+  .side-menu__item {
+    font-size: 15px;
+    padding-top: 1em;
+    padding-bottom: 1em; }
+    .side-menu__item__link {
+      color: #777;
+      font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
+      font-weight: 900;
+      text-transform: uppercase;
+      text-decoration: none;
+      display: block;
+      letter-spacing: 1px;
+      width: 100%; }
+      .side-menu__item__link:hover {
+        color: #222; }
+
+/* Background-related colors */
+/* Title-related colors */
+/* Textual elements -related colors */
 .footer {
   background-color: #222;
   color: #fff;
