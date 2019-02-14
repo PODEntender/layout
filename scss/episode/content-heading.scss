@@ -1,6 +1,9 @@
 @import '../colors';
 
-.content-heading {
+.episode__cover {
+  
+  margin-bottom: 40px;
+  
   &__cover {
     width: 100%;
     height: auto;
@@ -12,8 +15,8 @@
     text-align: center;
     display: block;
     font-size: 14px;
-    font-weight: 400;
-    padding: 10px 0;
+    font-weight: 200;
+    padding: 20px 0;
     line-height: 16px;
 
     &--bold {
