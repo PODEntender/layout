@@ -76,7 +76,8 @@ table {
   z-index: 2;
   position: sticky;
   top: 0;
-  display: flex; }
+  display: flex;
+  padding: 0 20px; }
   .header_bar::before {
     content: '';
     flex: 1; }
@@ -175,7 +176,7 @@ table {
 /* Title-related colors */
 /* Textual elements -related colors */
 .paragraph {
-  margin: 15px 0;
+  margin: 20px 0;
   font-size: 18px;
   color: #777;
   letter-spacing: 0.072px;
@@ -213,8 +214,8 @@ table {
 /* Title-related colors */
 /* Textual elements -related colors */
 .player-card {
-  display: none;
-  padding: 0 10px; }
+  padding: 0 10px;
+  margin: 20px 0; }
   .player-card__player {
     width: 100%;
     height: 55px; }
@@ -231,10 +232,12 @@ table {
 /* Background-related colors */
 /* Title-related colors */
 /* Textual elements -related colors */
-.content {
-  padding: 0 5px;
-  margin-top: 5px; }
-  .content__body::before {
+.episode {
+  padding: 0 20px;
+  margin: 0 auto;
+  margin-top: 20px;
+  max-width: 720px; }
+  .episode__body::before {
     display: inline-block;
     position: relative;
     content: ' ';
@@ -242,6 +245,6 @@ table {
     transform: translateX(-50%);
     width: 100%;
     left: 50%; }
-  .content__body {
+  .episode__body {
     padding: 0 15px; }
 

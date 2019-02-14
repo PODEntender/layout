@@ -1,5 +1,6 @@
 @import '../../colors';
 @import '../../z-index';
+@import '../../spacing';
 
 .header_bar {
   background-color: $website-background-color;
@@ -8,6 +9,7 @@
   position: sticky;
   top: 0;
   display: flex;
+  padding: $website-content-padding;
   
   &::before {
     content: '';
