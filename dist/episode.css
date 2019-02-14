@@ -168,7 +168,7 @@ table {
     color: #222;
     letter-spacing: normal;
     font-size: 26px;
-    font-weight: 400;
+    font-weight: 900;
     line-height: 28px;
     margin-top: 10px; }
 
@@ -189,26 +189,27 @@ table {
   .paragraph--justified {
     text-align: justify; }
   .paragraph--bold {
-    font-weight: 400; }
+    font-weight: 700; }
 
 /* Background-related colors */
 /* Title-related colors */
 /* Textual elements -related colors */
-.content-heading__cover {
-  width: 100%;
-  height: auto;
-  border-radius: 5px; }
-
-.content-heading__details {
-  color: #777;
-  text-align: center;
-  display: block;
-  font-size: 14px;
-  font-weight: 400;
-  padding: 10px 0;
-  line-height: 16px; }
-  .content-heading__details--bold {
-    font-weight: 600; }
+.episode__cover {
+  margin-bottom: 40px; }
+  .episode__cover__cover {
+    width: 100%;
+    height: auto;
+    border-radius: 5px; }
+  .episode__cover__details {
+    color: #777;
+    text-align: center;
+    display: block;
+    font-size: 14px;
+    font-weight: 200;
+    padding: 20px 0;
+    line-height: 16px; }
+    .episode__cover__details--bold {
+      font-weight: 600; }
 
 /* Background-related colors */
 /* Title-related colors */
