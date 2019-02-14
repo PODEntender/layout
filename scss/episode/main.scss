@@ -8,11 +8,18 @@
 @import './content-heading';
 @import './player-card';
 @import '../colors';
+@import '../spacing';
 
-.content {
-  padding: 0 5px;
-  margin-top: 5px;
 
+$episode-max-width: $font-size-primary-text * 40; // Magic 'formula' for more legible texts
+
+
+.episode {
+  padding: $website-content-padding;
+  margin: 0 auto;
+  margin-top: 20px;
+  max-width: $episode-max-width;
+  
   &__body::before {
     display: inline-block;
     position: relative;
