@@ -196,7 +196,7 @@ table {
 /* Textual elements -related colors */
 .episode__cover {
   margin-bottom: 40px; }
-  .episode__cover__cover {
+  .episode__cover__image {
     width: 100%;
     height: auto;
     border-radius: 5px; }
