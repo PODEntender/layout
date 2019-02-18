@@ -5,6 +5,8 @@
 @import '../components/footer/footer';
 @import '../components/elements/heading';
 @import '../components/elements/paragraph';
+@import '../components/elements/links';
+@import '../components/elements/images';
 @import './content-heading';
 @import './player-card';
 @import '../colors';
@@ -20,17 +22,21 @@ $episode-max-width: $font-size-primary-text * 40; // Magic 'formula' for more le
   margin-top: 20px;
   max-width: $episode-max-width;
   
-  &__body::before {
-    display: inline-block;
-    position: relative;
-    content: ' ';
-    border-top: 1px solid $primary-text-color;
-    transform: translateX(-50%);
-    width: 100%;
-    left: 50%;
-  }
-
-  &__body {
-    padding: 0 15px;
+//  &__body::before {
+//    display: inline-block;
+//    position: relative;
+//    content: ' ';
+//    border-top: 1px solid $primary-text-color;
+//    transform: translateX(-50%);
+//    width: 100%;
+//    left: 50%;
+//  }
+//
+//  &__body {
+//    padding: 0 15px;
+//  }
+  
+  &__content {
+    
   }
 }
