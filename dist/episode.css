@@ -50,6 +50,7 @@ table {
 /* Background-related colors */
 /* Title-related colors */
 /* Textual elements -related colors */
+/* Accent color */
 .top-nav {
   /* @todo Rollback once we have the final decision about the top menu */
   display: none;
@@ -70,6 +71,7 @@ table {
 /* Background-related colors */
 /* Title-related colors */
 /* Textual elements -related colors */
+/* Accent color */
 .header_bar {
   background-color: #fff;
   box-shadow: 0px 0px 2px #ccc;
@@ -101,6 +103,7 @@ table {
 /* Background-related colors */
 /* Title-related colors */
 /* Textual elements -related colors */
+/* Accent color */
 .side-menu {
   display: none;
   z-index: 999;
@@ -132,6 +135,7 @@ table {
 /* Background-related colors */
 /* Title-related colors */
 /* Textual elements -related colors */
+/* Accent color */
 .footer {
   background-color: #222;
   color: #fff;
@@ -162,6 +166,7 @@ table {
 /* Background-related colors */
 /* Title-related colors */
 /* Textual elements -related colors */
+/* Accent color */
 .heading {
   text-align: center; }
   .heading__primary {
@@ -175,6 +180,7 @@ table {
 /* Background-related colors */
 /* Title-related colors */
 /* Textual elements -related colors */
+/* Accent color */
 .paragraph {
   margin: 20px 0;
   font-size: 18px;
@@ -194,6 +200,38 @@ table {
 /* Background-related colors */
 /* Title-related colors */
 /* Textual elements -related colors */
+/* Accent color */
+.link {
+  color: #ff8237;
+  text-decoration: none; }
+  .link:hover {
+    color: #d04e00;
+    text-decoration: underline; }
+
+/* Background-related colors */
+/* Title-related colors */
+/* Textual elements -related colors */
+/* Accent color */
+.figure {
+  margin-top: 20px;
+  margin-bottom: 30px; }
+  .figure__image {
+    width: 100%; }
+  .figure__subtitle {
+    color: #777;
+    font-weight: 400;
+    font-size: 14px; }
+    .figure__subtitle--centered {
+      text-align: center; }
+    .figure__subtitle--left {
+      text-align: left; }
+    .figure__subtitle--bold {
+      font-weight: 700; }
+
+/* Background-related colors */
+/* Title-related colors */
+/* Textual elements -related colors */
+/* Accent color */
 .episode__cover {
   margin-bottom: 40px; }
   .episode__cover__image {
@@ -214,6 +252,7 @@ table {
 /* Background-related colors */
 /* Title-related colors */
 /* Textual elements -related colors */
+/* Accent color */
 .player-card {
   padding: 0 10px;
   margin: 20px 0; }
@@ -225,27 +264,16 @@ table {
     color: #777;
     margin: 10px 0; }
   .player-card__subscribe-link {
-    text-decoration: none;
-    color: #777;
     font-size: 12px;
     font-weight: 700; }
 
 /* Background-related colors */
 /* Title-related colors */
 /* Textual elements -related colors */
+/* Accent color */
 .episode {
   padding: 0 20px;
   margin: 0 auto;
   margin-top: 20px;
   max-width: 720px; }
-  .episode__body::before {
-    display: inline-block;
-    position: relative;
-    content: ' ';
-    border-top: 1px solid #777;
-    transform: translateX(-50%);
-    width: 100%;
-    left: 50%; }
-  .episode__body {
-    padding: 0 15px; }
 
