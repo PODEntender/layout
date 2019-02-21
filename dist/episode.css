@@ -140,7 +140,8 @@ table {
   background-color: #222;
   color: #fff;
   text-align: center;
-  padding: 10px; }
+  margin-top: 6em;
+  padding: 2em; }
   .footer__copy::before {
     display: inline-block;
     position: relative;
@@ -149,7 +150,7 @@ table {
     transform: translateX(-50%);
     width: 100%;
     left: 50%;
-    margin-bottom: 5px; }
+    margin: 1em auto; }
   .footer__copy {
     position: relative;
     bottom: 0;
