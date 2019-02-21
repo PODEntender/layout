@@ -4,7 +4,8 @@
   background-color: $primary-title-color;
   color: $website-background-color;
   text-align: center;
-  padding: 10px;
+  margin-top: 6em;
+  padding: 2em;
 
   &__copy::before {
     display: inline-block;
@@ -14,7 +15,7 @@
     transform: translateX(-50%);
     width: 100%;
     left: 50%;
-    margin-bottom: 5px;
+    margin: 1em auto;
   }
 
   &__copy {
