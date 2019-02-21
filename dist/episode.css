@@ -274,7 +274,14 @@ table {
 .episode__recommended {
   margin-top: 6em; }
   .episode__recommended__title {
-    font-size: 30px; }
+    font-size: 30px;
+    text-align: center; }
+    .episode__recommended__title::before {
+      display: block;
+      border: 1px solid #ff8237;
+      margin: .5em auto;
+      content: " ";
+      max-width: 20px; }
   .episode__recommended__cards {
     display: flex;
     flex-direction: column; }
