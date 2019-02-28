@@ -161,6 +161,13 @@ table {
     font-size: 14px;
     line-height: 16px;
     font-weight: 300; }
+  .footer__menu-item {
+    padding: 2em 0; }
+    .footer__menu-item__link {
+      text-decoration: none;
+      color: #fff; }
+      .footer__menu-item__link:hover {
+        color: #e6e6e6; }
   .footer__menu-group {
     flex: 1; }
 
